@@ -1,7 +1,7 @@
 ## CRUD Users
 ### Получение всех пользователей
 - GET http://127.0.0.1:8000/api/users/
-![alt text](readme-image/image.png)
+![alt text](readme-Image/image.png)
 ### Получение пользователя по id
 - Get http://127.0.0.1:8000/api/users/{id}
 ![alt text](readme-image/image-1.png)

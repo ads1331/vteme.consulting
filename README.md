@@ -4,7 +4,7 @@
 ![alt text](readme-Image/image.png)
 ### Получение пользователя по id
 - Get http://127.0.0.1:8000/api/users/{id}
-![alt text](readme-image/image-1.png)
+![alt text](readme-Image/image-1.png)
 
 ### Создать нового пользователя
 - POST http://127.0.0.1:8000/api/users
@@ -15,7 +15,7 @@
     "email": ""
 }
  ```
-![alt text](readme-image/image-2.png)
+![alt text](readme-Image/image-2.png)
 ### Обновить пользователя
 - PUT http://127.0.0.1:8000/api/users/{id}
 - Тело запроса:
@@ -26,10 +26,10 @@
     "active": true/false(1/0)
 }
  ```
-![alt text](readme-image/image-3.png)
+![alt text](readme-Image/image-3.png)
 ### Удалить пользователя
 - DELETE http://127.0.0.1:8000/api/users/{id}
-![alt text](readme-image/image-4.png)
+![alt text](readme-Image/image-4.png)
 
 ## CRUD Groups
 ### Создать новую группу
@@ -41,18 +41,18 @@
     "expire_hours": 1
 }
  ```
-![alt text](readme-image/image-5.png)
+![alt text](readme-Image/image-5.png)
 ### Обновить группу
 - PUT http://127.0.0.1:8000/api/groups/{id}
-![alt text](readme-image/image-6.png)
+![alt text](readme-Image/image-6.png)
 
 ### Получить группу по ID
 - GET http://127.0.0.1:8000/api/groups/{id}
-![alt text](readme-image/image-7.png)
+![alt text](readme-Image/image-7.png)
 
 ### Получить все группы
 - GET http://127.0.0.1:8000/api/groups
-![alt text](readme-image/image-8.png)
+![alt text](readme-Image/image-8.png)
 
 ## Добавление пользователя в группу
 - POST http://127.0.0.1:8000/api/users/{id}/add-to-group
@@ -63,18 +63,18 @@
     "group_id": {id}
 }
  ```
-![alt text](readme-image/image-9.png)
+![alt text](readme-Image/image-9.png)
 
 ## Добавление через консоль
-![alt text](readme-image/image-10.png)
-![alt text](readme-image/image-11.png)
+![alt text](readme-Image/image-10.png)
+![alt text](readme-Image/image-11.png)
 
 ## Удаление через консоль
 (если не ошибаюсь gmail почты не работают)
 
-![alt text](readme-image/image-12.png)
-![alt text](readme-image/image-13.png)
-![alt text](readme-image/image-14.png)
+![alt text](readme-Image/image-12.png)
+![alt text](readme-Image/image-13.png)
+![alt text](readme-Image/image-14.png)
 
 ## Выполнение каждые 10 минут
 Через php artisan schedule:run, можно запустить это выполнение
